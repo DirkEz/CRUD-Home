@@ -2,7 +2,7 @@
 
 :root {
     --wit-kleur-: #ffffff;
-    --ag-kleur-: #E1E5EE;
+    --ag-kleur-: #eaebee;
     --tweede-kleur-: #C7CCDB;
     --derde-kleur-:  #767B91;
     --header-kleur-: #2A324B;
@@ -19,6 +19,7 @@
 }
 
 body {
+    max-width: 100vw;
     background-color: var(--ag-kleur-);
 }
      
@@ -88,7 +89,7 @@ html {
     width: 600px;
     margin-top: 30px;
     border-radius: 5px; 
-    margin-left: 50px;
+    margin-left: 40px;
     position: relative;
 }
 
